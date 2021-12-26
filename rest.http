@@ -1,0 +1,2 @@
+GET http://localhost:4502/api/assets/we-retail/en/experiences/arctic-surfing-in-lofoten.model.json
+Authorization: Basic admin:admin
