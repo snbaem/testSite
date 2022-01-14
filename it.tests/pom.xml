@@ -96,6 +96,18 @@ Sling-Test-Regexp: .*Test
     </build>
 
     <dependencies>
+    <!-- iText Core -->
+    <dependency>
+        <groupId>com.itextpdf</groupId>
+        <artifactId>itext7-core</artifactId>
+        <type>pom</type>
+    </dependency>
+
+    <!-- iText pdfHTML add-on -->
+    <dependency>
+	    <groupId>com.itextpdf</groupId>
+	    <artifactId>html2pdf</artifactId>
+	</dependency>
         <dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.annotation.versioning</artifactId>
